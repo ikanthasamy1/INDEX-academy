@@ -1,25 +1,22 @@
-# Index Academy — Version 1
+# Index Academy — Updated Site
 
-A simple static website for an independent index-education project.
+This bundle contains the full static website ready for GitHub Pages.
 
 ## Files
-- `index.html` — homepage and course landing page
-- `styles.css` — responsive styling
-- `script.js` — working free-float index weight calculator
+- `index.html` — updated homepage with featured Global Benchmark Construction guide
+- `global-benchmark.html` — full visual article
+- `styles.css` — homepage styling including the featured-guide graphics
+- `script.js` — free-float index weight calculator
+- `README.md` — this file
 
-## Publish for free with GitHub Pages
-1. Create a new GitHub repository.
-2. Upload these three files to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/root`.
-6. Save. GitHub will provide a public `github.io` address.
+## Update your GitHub site
+1. Open your `INDEX-academy` repository.
+2. Upload all files in this folder to the repository root.
+3. When GitHub asks about existing files, replace/update `index.html`, `styles.css`, `script.js` and `README.md`.
+4. `global-benchmark.html` is new and should be added.
+5. Commit the changes.
 
-## Before launch
-- Replace `hello@example.com` in `index.html` with your real course email.
-- Review the disclaimer.
-- Add your own name/bio only if you want the site to be personally branded.
-- Add a payment/checkout link later when the paid course is ready.
+Your guide will then be available at:
+`https://ikanthasamy1.github.io/INDEX-academy/global-benchmark.html`
 
-## Positioning
-The site is intentionally independent of any employer or index provider. Do not reproduce confidential information, internal data, or proprietary methodology text.
+The homepage links directly to the guide from both the Learn section and Free Resources section.
