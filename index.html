@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Index Academy — Understand How Financial Indices Work</title>
+  <meta name="description" content="Practical education in index construction, rebalancing, corporate actions, free float and benchmark mathematics.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Index Academy</a>
+      <nav>
+        <a href="#learn">Learn</a>
+        <a href="#course">Course</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Practical index education</span>
+          <h1>Understand how financial indices really work.</h1>
+          <p class="lead">Clear, practical lessons on index construction, free float, rebalancing, corporate actions, capping and benchmark mathematics.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#course">Explore the course</a>
+            <a class="btn secondary" href="#calculator">Try the free calculator</a>
+          </div>
+          <p class="micro">Independent educational content. Not affiliated with or endorsed by Bloomberg, MSCI, FTSE Russell or any other index provider.</p>
+        </div>
+        <div class="hero-card">
+          <div class="metric">
+            <span>12</span>
+            <small>planned modules</small>
+          </div>
+          <div class="metric">
+            <span>100%</span>
+            <small>practical focus</small>
+          </div>
+          <div class="metric">
+            <span>£0</span>
+            <small>to start learning</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="section">
+      <div class="container">
+        <span class="eyebrow">What you will learn</span>
+        <h2>From methodology language to real-world mechanics.</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Index Mathematics</h3>
+            <p>Market capitalisation, free-float adjustment, weights, index shares, divisors and index levels.</p>
+          </article>
+          <article class="card">
+            <h3>Reviews & Rebalancing</h3>
+            <p>Eligibility, ranking, buffers, additions, deletions, turnover controls and implementation.</p>
+          </article>
+          <article class="card">
+            <h3>Corporate Actions</h3>
+            <p>Splits, rights issues, takeovers, tender offers, spin-offs, mergers and other events that move indices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="course" class="section alt">
+      <div class="container">
+        <span class="eyebrow">Flagship course</span>
+        <h2>How Equity Indices Actually Work</h2>
+        <p class="section-intro">A structured course for analysts, graduates, investors and anyone who wants to understand the machinery behind benchmarks.</p>
+
+        <div class="course-grid">
+          <div class="course-list">
+            <div class="module"><b>01</b><span>What an Index Actually Is</span></div>
+            <div class="module"><b>02</b><span>Index Mathematics</span></div>
+            <div class="module"><b>03</b><span>Building an Index</span></div>
+            <div class="module"><b>04</b><span>Free Float & Ownership</span></div>
+            <div class="module"><b>05</b><span>Rebalancing</span></div>
+            <div class="module"><b>06</b><span>Corporate Actions</span></div>
+            <div class="module"><b>07</b><span>IPOs & Fast Entry</span></div>
+            <div class="module"><b>08</b><span>Index Weighting</span></div>
+            <div class="module"><b>09</b><span>Concentration & UCITS</span></div>
+            <div class="module"><b>10</b><span>Market Classification</span></div>
+            <div class="module"><b>11</b><span>Real-World Index Operations</span></div>
+            <div class="module"><b>12</b><span>Careers & Interview Preparation</span></div>
+          </div>
+
+          <aside class="course-panel">
+            <h3>Version 1</h3>
+            <p>Start with the first four modules, worked examples, quizzes and downloadable exercises.</p>
+            <ul>
+              <li>Short, focused lessons</li>
+              <li>Worked calculations</li>
+              <li>Spreadsheet exercises</li>
+              <li>Practical interview-style questions</li>
+            </ul>
+            <a class="btn primary full" href="mailto:hello@example.com?subject=Index%20Academy%20interest">Join the early-access list</a>
+            <p class="micro">Replace the placeholder email before launch.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="section">
+      <div class="container">
+        <span class="eyebrow">Free resource</span>
+        <h2>Free-Float Index Weight Calculator</h2>
+        <p class="section-intro">Enter market capitalisation and free-float factors. The calculator converts them into free-float adjusted market caps and index weights.</p>
+
+        <div class="calculator-wrap">
+          <div class="table-scroll">
+            <table id="calcTable">
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>Market Cap</th>
+                  <th>Free Float %</th>
+                  <th>Adjusted Market Cap</th>
+                  <th>Index Weight</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+
+          <div class="calc-actions">
+            <button class="btn secondary" id="addRow">+ Add company</button>
+            <button class="btn primary" id="calculate">Calculate weights</button>
+            <button class="text-btn" id="reset">Reset</button>
+          </div>
+
+          <div id="calcSummary" class="summary-box">
+            Add companies and press <b>Calculate weights</b>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <span class="eyebrow">Free resources</span>
+        <h2>Learn before you buy anything.</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Index Divisors Explained</h3>
+            <p>A plain-English introduction to why index levels do not simply equal the sum of constituent prices.</p>
+            <a href="#" class="card-link" onclick="return false;">Coming soon</a>
+          </article>
+          <article class="card">
+            <h3>20 Index Concepts</h3>
+            <p>A compact guide to the terminology every new index analyst should understand.</p>
+            <a href="#" class="card-link" onclick="return false;">Coming soon</a>
+          </article>
+          <article class="card">
+            <h3>Corporate Action Cheat Sheet</h3>
+            <p>A practical reference covering common event types and how they can affect benchmark treatment.</p>
+            <a href="#" class="card-link" onclick="return false;">Coming soon</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <span class="eyebrow">About</span>
+        <h2>Built for people who want the mechanics, not the marketing.</h2>
+        <p>Index Academy is an independent educational project designed to make index construction and maintenance easier to understand. The aim is to explain complex benchmark concepts from first principles using worked examples, practical exercises and clear language.</p>
+        <p>This site does not reproduce proprietary methodologies or confidential employer information. Examples are illustrative and educational.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <span class="eyebrow light">Start here</span>
+          <h2>Learn the language of indices.</h2>
+          <p>Use the free tools now and join the first course when it launches.</p>
+        </div>
+        <a class="btn light-btn" href="#calculator">Use the calculator</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Index Academy</span>
+      <span>Independent educational content only.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
